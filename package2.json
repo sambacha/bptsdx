@@ -1,0 +1,31 @@
+{
+  "name": "sushiguard-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "typings": "dist/index.d.ts",
+  "files": ["dist", "src"],
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifoldfinance/libopenmev.git"
+  },
+  "keywords": [],
+  "author": "SEE CONTRIBUTORS",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/manifoldfinance/libopenmev/issues"
+  },
+  "homepage": "https://github.com/manifoldfinance/libopenmev#readme"
+}
