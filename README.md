@@ -1,7 +1,7 @@
 # bptsdx
 
 ```shell
-yarn add -D prettier typescript-eslint-language-service eslint @typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-prettier eslint-plugin-prettier
+yarn add -D prettier typescript-eslint-language-service eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-prettier eslint-plugin-prettier
 ```
 
 ```javascript
