@@ -1,6 +1,10 @@
 # bptsdx
 
 ```shell
+npm i -D typescript@4.7.2 typescript-eslint-language-service @typescript/analyze-trace process-tracing
+```
+
+```shell
 yarn add -D prettier typescript-eslint-language-service eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-prettier eslint-plugin-prettier
 ```
 
