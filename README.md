@@ -1,5 +1,36 @@
 # bptsdx
 
+## functional
+
+```shell
+yarn add -D eslint @typescript-eslint/parser tsutils eslint-plugin-functional
+```
+
+```jsonc
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "env": {
+    "es6": true
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "functional"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:functional/external-recommended",
+    "plugin:functional/recommended",
+    "plugin:functional/stylistic"
+  ]
+}
+```
+
 ```shell
 npm i -D typescript@4.7.2 typescript-eslint-language-service @typescript/analyze-trace process-tracing
 ```
