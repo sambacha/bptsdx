@@ -2,6 +2,8 @@
 
 ## functional
 
+[see https://github.com/jonaskello/eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional)
+
 ```shell
 yarn add -D eslint @typescript-eslint/parser tsutils eslint-plugin-functional
 ```
