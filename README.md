@@ -1,5 +1,14 @@
 # bptsdx
 
+## browser
+
+```bash
+npm i -D rollup-plugin-esbuild@latest rollup@latest rollup-plugin-dts@latest esbuild downlevel-dts tsutils tsup @rollup/plugin-commonjs  @rollup/plugin-node-resolve rollup-plugin-polyfill-node
+```
+```console
+rollup:~ $ npm i -D rollup-plugin-esbuild@latest rollup@latest rollup-plugin-dts@latest esbuild downlevel-dts tsutils tsup @rollup/plugin-commonjs  @rollup/plugin-node-resolve rollup-plugin-polyfill-node
+```
+
 ## functional
 
 [see https://github.com/jonaskello/eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional)
