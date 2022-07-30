@@ -34,7 +34,7 @@ yarn add -D eslint @typescript-eslint/parser tsutils eslint-plugin-functional
 ```
 
 ```shell
-npm i -D typescript@4.7.2 typescript-eslint-language-service @typescript/analyze-trace process-tracing
+npm i -D typescript@4.7.4 typescript-eslint-language-service @typescript/analyze-trace process-tracing
 ```
 
 ```shell
@@ -109,3 +109,6 @@ esbuild downlevel-dts @babel/plugin-proposal-class-properties \
 @babel/plugin-transform-typescript  @babel/plugin-transform-runtime \
 @rollup/plugin-typescript @rollup/plugin-babel @babel/core 
 </pre>
+
+
+rollup-plugin-esbuild@latest rollup@latest rollup-plugin-dts@latest esbuild downlevel-dts tsutils tsup
