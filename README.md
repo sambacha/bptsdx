@@ -1,5 +1,13 @@
 # bptsdx
 
+
+## typechain
+
+```console
+arn add -D typechain@latest ts-node@latest hardhat@latest ethers@latest @typechain/ethers-v5@latest @typechain/hardhat@latest @nomiclabs/hardhat-ethers@latest typescript@4.7.4
+```
+
+
 ## browser
 
 ```bash
