@@ -17,6 +17,12 @@ npm i -D rollup-plugin-esbuild@latest rollup@latest rollup-plugin-dts@latest esb
 rollup:~ $ npm i -D rollup-plugin-esbuild@latest rollup@latest rollup-plugin-dts@latest esbuild downlevel-dts tsutils tsup @rollup/plugin-commonjs  @rollup/plugin-node-resolve rollup-plugin-polyfill-node
 ```
 
+### UMD
+
+```console
+npm i -D rollup-plugin-node-builtins@latest rollup-plugin-terser@latest rollup-plugin-sourcemaps@latest rollup-plugin-node-resolve@latest rollup-plugin-node-globals@latest rollup-plugin-commonjs@latest rollup-plugin-node-builtins@latest pascal-case@latest dts-bundle@latest 
+```
+
 ## functional
 
 [see https://github.com/jonaskello/eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional)
